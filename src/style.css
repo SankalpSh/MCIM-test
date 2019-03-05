@@ -1,0 +1,39 @@
+h1, p {
+  font-family: Lato;
+}
+
+p {
+  display: flex;
+  flex:1;
+}
+
+.name {
+  border-bottom: 2px dotted #e6e6e6;
+  text-decoration: none;
+}
+
+span {
+  display: flex;
+  flex:1;
+  flex-direction: row-reversre;
+  justify-content: flex-end;
+  color:gray;
+}
+
+.box {
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  top:100%;
+  left:160%;
+}
+.dark {
+  font-weight: bold;
+}
+
+.mainBorder {
+  border: 2px solid #0a0a0a;
+  padding-left: 4px;
+  height: 200px;
+  overflow:scroll;
+}
